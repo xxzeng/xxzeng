@@ -12,12 +12,13 @@ var item1Text = document.getElementById("item1Text");
 var item2Text = document.getElementById("item2Text");
 var item3Text = document.getElementById("item3Text");
 var item4Text = document.getElementById("item4Text");
-/*
+
 var btn1Inc = document.getElementById("btn1Inc");
 var btn2Inc = document.getElementById("btn2Inc");
 var btn3Inc = document.getElementById("btn3Inc");
 var btn4Inc = document.getElementById("btn4Inc");
-*/
+
+var btn4Lock = document.getElementById("btnLock");
 
 btnPrev.onclick = function() {
 	if (historyArr.length > 0 ) {
@@ -186,7 +187,7 @@ item4Text.onclick = function() {
   historyList.add(new Option(totalCnt + " : " + item4Text.value));
   historyList.selectedIndex=historyList.options.length-1;
 };
-/*
+
 btn1Inc.onclick = function() {
   count1 += 1;
   totalCnt +=1;
@@ -242,4 +243,21 @@ btn4Inc.onclick = function() {
   historyList.add(new Option(totalCnt + " : " + item4Text.value));
   historyList.selectedIndex=historyList.options.length-1;
 };
-*/
+btnLock.onclick = function() {
+  var status = btnLock.innerHTML;
+  if (status=="鎖定"){
+    item1Text.readOnly = true;
+    item2Text.readOnly = true;
+    item3Text.readOnly = true;
+    item4Text.readOnly = true;
+    btnLock.innerHTML ="解除";
+  }
+  else
+  {
+    item1Text.readOnly = false;
+    item2Text.readOnly = false;
+    item3Text.readOnly = false;
+    item4Text.readOnly = false;
+    btnLock.innerHTML ="鎖定";
+  }
+};
