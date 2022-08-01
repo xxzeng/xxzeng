@@ -5,6 +5,9 @@ body {
   font-size: 20pt;
   font-weight: normal;
   background-color: rgba(0,0,0,.85);
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .main {
   margin: 10px auto;
