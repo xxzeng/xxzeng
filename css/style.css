@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 20pt;
+  font-weight: normal;
+  background-color: rgba(0,0,0,.85);
+}
+.main {
+  margin: 10px auto;
+  text-align: center;
+}
+H4 {
+  font-size: 20pt;
+  font-family: "Lato", sans-serif;
+  color: Cyan;
+ }
+button {
+  padding: 20px;
+  background: transparent;
+  text-shadow: 1px 1px 1px #202020;
+  font-family: "Lato", sans-serif;
+  font-size: 18pt;
+  border: 1px solid Cyan;
+  color: Cyan;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: LightCyan
+}
+button:active {
+  background-color: LightCyan;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input {
+  caret-color: transparent;
+  text-align: center;
+  padding: 20px;
+  background: transparent;
+  text-shadow:1px 1px 1px #202020;
+  font-family: "Lato", sans-serif;
+  font-size: 18pt;
+  border: 0px solid Cyan;
+  color: Cyan;
+  border-radius: 4px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+label {
+  padding: 0px;
+  background: transparent;
+  text-shadow:1px 1px 1px #202020;
+  font-family: "Lato", sans-serif;
+  font-size: 18pt;
+  border: 0px solid Cyan;
+  color: Cyan;
+  width:130px;  
+  height: 70px;
+  display: inline-table;
+  
+}
+select {
+  width: 100%;
+  min-width: 20ch;
+  max-width: 20ch;
+  
+  min-height: 13.2ch;  
+  min-height: 13.2ch;
+  border: 0px solid Cyan;  
+  font-family: "Lato", sans-serif;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  color: Cyan;
+  background-color: transparent;
+}
+.hideoverflow {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  border: 0px solid Cyan;  
+}
+.hideoverflow select {
+  padding: 0.25em 0.5em;
+  margin: -5px -25px -5px -5px;
+}
+select option:checked{   box-shadow: 0 0 10px 10px Cyan inset; } 
+
+table {
+  margin: 10px auto;
+  text-align: center;
+}
+#item1Text, #item1Cnt, #item1Rate, #btn1Inc{
+  color: DeepSkyBlue;  
+}
+#item1Text:hover {
+  background-color: LightSkyBlue
+}
+#item1Text:active {
+  background-color: LightSkyBlue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+ }
+#item2Text, #item2Cnt, #item2Rate, #btn2Inc{
+  
+  color: DeepPink;  
+}
+#item2Text:hover {
+  background-color: LightPink
+}
+#item2Text:active {
+  background-color: LightPink;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#item3Text, #item3Cnt, #item3Rate, #btn3Inc{
+  color: LightGreen;  
+}
+#item3Text:hover {
+  background-color: Aquamarine
+}
+#item3Text:active {
+  background-color: Aquamarine;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#item4Text, #item4Cnt, #item4Rate, #btn4Inc{
+  color: Gold;  
+}
+#item4Text:hover {
+  background-color: LightYellow
+}
+#item4Text:active {
+  background-color: LightYellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#lblCnt, #lblRate, #lblTotalText{
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+
+::selection {
+    color: none;
+    background: none;
+}
+/* For Mozilla Firefox */
+::-moz-selection {
+    color: none;
+    background: none;
+}
+
+
+/*
+#btn1Inc{
+  border: 1px solid DeepSkyBlue;  
+}
+#btn1Inc:hover {
+  background-color: LightSkyBlue
+}
+#btn1Inc:active {
+  background-color: LightSkyBlue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#btn2Inc{
+  border: 1px solid DeepPink;
+}
+#btn2Inc:hover {
+  background-color: LightPink
+}
+#btn2Inc:active {
+  background-color: LightPink;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#btn3Inc{
+  border: 1px solid LightGreen;
+}
+#btn3Inc:hover {
+  background-color: Aquamarine
+}
+#btn3Inc:active {
+  background-color: Aquamarine;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#btn4Inc{
+  border: 1px solid Gold;
+}
+#btn4Inc:hover {
+  background-color: LightYellow
+}
+#btn4Inc:active {
+  background-color: LightYellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}*/
