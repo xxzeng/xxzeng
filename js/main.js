@@ -20,10 +20,6 @@ var btn4Inc = document.getElementById("btn4Inc");
 
 var btn4Lock = document.getElementById("btnLock");
 
-$(document).ready(function(){
-  $(document).disableSelection();
-});
-
 btnPrev.onclick = function() {
 	if (historyArr.length > 0 ) {
 	   historyList.remove(historyArr.length-1);
