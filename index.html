@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SMM2ClearRateCounter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">	
+    <label id="lblTotalText">總次數：</label><label id="lblTotalCnt">0</label>&nbsp;<div class="hideoverflow"><select id="historyList" size="2" ></select></div>&nbsp;<button id="btnPrev">退回</button>&nbsp;&nbsp;<button id="btnClear">清除</button>&nbsp;&nbsp;<button id="btnExport">匯出</button>
+
+	<table>
+	<TR>
+		<TD><H4>選項</H4></TD>
+		<TD><input id="item1Text" type="text" size="8" name="item1" value="藍"/></TD>
+		<TD><input id="item2Text" type="text" size="8" name="item2" value="粉"/></TD>
+		<TD><input id="item3Text" type="text" size="8" name="item3" value="綠"/></TD>
+		<TD><input id="item4Text" type="text" size="8" name="item4" value="黃"/></TD>
+	</TR>
+	<TR>
+		<TD><label id="lblCnt" >次數</label></TD>
+		<TD><label id="item1Cnt">0</label></TD>
+		<TD><label id="item2Cnt">0</label></TD>
+		<TD><label id="item3Cnt">0</label></TD>
+		<TD><label id="item4Cnt">0</label></TD>
+	</TR>
+	<TR>
+		<TD><label id="lblRate" >機率</label></TD>
+		<TD><label id="item1Rate">0 %</label></TD>
+		<TD><label id="item2Rate">0 %</label></TD>
+		<TD><label id="item3Rate">0 %</label></TD>
+		<TD><label id="item4Rate">0 %</label></TD>
+	</TR>
+	<!--<TR>
+		<TD><label>&nbsp;&nbsp;&nbsp;&nbsp;</label></TD>
+		<TD><button id="btn1Inc" >+</button></TD>
+		<TD><button id="btn2Inc" >+</button></TD>
+		<TD><button id="btn3Inc" >+</button></TD>
+		<TD><button id="btn4Inc" >+</button></TD>
+	</TR>-->
+	</table>
+  </div>
+</body>
+  <script src="js/main.js"></script>
+</html>
