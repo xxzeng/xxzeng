@@ -144,6 +144,7 @@ item1Text.onclick = function() {
   historyArr.push('item1');
   historyList.add(new Option(totalCnt + " : " + item1Text.value));
   historyList.selectedIndex=historyList.options.length-1;
+  disableSelection();
 };
 
 item2Text.onclick = function() {
@@ -158,6 +159,7 @@ item2Text.onclick = function() {
   historyArr.push('item2');  
   historyList.add(new Option(totalCnt + " : " + item2Text.value));
   historyList.selectedIndex=historyList.options.length-1;
+  disableSelection();
 };
 
 item3Text.onclick = function() {
@@ -172,6 +174,7 @@ item3Text.onclick = function() {
   historyArr.push('item3');  
   historyList.add(new Option(totalCnt + " : " + item3Text.value));
   historyList.selectedIndex=historyList.options.length-1;
+  disableSelection();
 };
 
 item4Text.onclick = function() {
@@ -186,6 +189,7 @@ item4Text.onclick = function() {
   historyArr.push('item4');  
   historyList.add(new Option(totalCnt + " : " + item4Text.value));
   historyList.selectedIndex=historyList.options.length-1;
+  disableSelection();
 };
 
 btn1Inc.onclick = function() {
